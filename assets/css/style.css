@@ -1,0 +1,167 @@
+body {
+	background: url("../images/concrete-texture.png");
+	font-size: 18px;
+	line-height: 30px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif; 
+	color: #777;
+	padding-top: 90px;
+}
+
+/*navigation*/
+
+/*#header {
+	position: fixed;
+}*/
+
+.navbar-default {
+	background: #fff;
+}
+
+#logo {
+	width: 250px;
+	height: 80px;
+	background: #4aaaa5;
+	float: left;
+	font-family: 'Georgia', Times, Times New Roman, serif; 
+	text-align: center;
+	line-height: 50px;
+	color: #fff;
+	font-weight: 700;
+	font-size: 30px;
+	text-decoration: none;
+}
+
+
+.navbar-right li a {
+	color: #999;
+	text-decoration: none;
+	margin-left: 15px;
+	/*display: inline-block;*/
+	border-left: 1px solid #efefef;
+	padding-left: 10px;
+	padding-right: 5px;
+	line-height: 40px;
+}
+
+/*headings*/
+h1, h2, h3 p {
+	margin-bottom: 20px;
+}
+
+p:last-child {
+	margin-bottom: 0;
+}
+
+h1, h2, h3 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-weight: 700;
+	color: #4aaaa5;
+}
+
+h1 {
+	font-size: 30px;
+	line-height: 50px;
+	border-bottom: 3px solid #ddd;
+	padding-bottom: 20px;
+}
+
+h2, h3 {
+	font-size: 22px;
+}
+
+
+.container {
+	width: 100%;
+	max-width: 960px;
+	margin: 0 auto;
+	clear: both;
+}
+
+/*Main*/
+.main-section {
+	background: #fff;
+	padding: 30px;
+	margin: 0 0 40px 0;
+	width: 100%;
+	height: auto;
+	max-width: 650px;
+	border: 1px solid #ddd;
+}
+
+.sidebar {
+	background: #fff;
+	padding: 30px;
+	width: 100%;
+	max-width: 270px;
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+}
+
+h3, .sidebar, h2 {
+	border-bottom: 2px solid #eee;
+	padding-bottom: 20px;
+	margin-bottom: 15px;
+	line-height: 22px;
+}
+
+.social-icons {
+	width: 60px;
+	height: 60px;
+	margin-top: 8px;
+	margin-right: 5px;
+}
+
+.social-icons:last-child {
+	margin-right: 0;
+}
+
+footer {
+	background: #666;
+	color: #fff;
+	padding: 30px 0;
+	clear: both;
+	border-top: 8px solid #4aaaa5;
+	text-align: center;
+	color: #ccc;
+}
+
+/*Contact Page*/
+
+.form-group {
+	margin-bottom: 5px;
+}
+
+.form-group textarea {
+	height: 200px;
+}
+
+.btn-default {
+	background: #4aaaa5;
+	border: 0 none;
+	color: #fff;
+	font-size: 18px;
+	padding: 10px 30px;
+	cursor: pointer;
+}
+
+/*Portfolio Page*/
+
+.work-images  {
+	width: 50%
+}
+
+
+.thumbnail h3 {
+	border-bottom: 0;
+	background: #4aaaa5;
+	color: #fff;
+	text-align: center;
+	position: absolute;
+	bottom: 20px;
+	padding: 15px;
+	width: 88%;
+	line-height: 30px;
+	margin-bottom: 0;
+	font-weight:300;
+
+}
